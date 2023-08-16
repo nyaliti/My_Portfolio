@@ -49,4 +49,18 @@ section p {
     text-decoration: none;
 }
 
-/* Adding more styles as needed
+.skill-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-list li {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
