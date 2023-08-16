@@ -63,7 +63,20 @@
     </section>
 
     <section id="contact">
-        <!-- Contact section will go here -->
+        <h1>Contact Me</h1>
+        <p>Feel free to reach out to me. You can use the form below or contact me through the links provided.</p>
+        <form action="contat.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Your name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Your email" required>
+
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" rows="4" placeholder="Your message" required></textarea>
+            
+            <input type="submit" value="Send Message">
+        </form>
     </section>
 
     <footer>
