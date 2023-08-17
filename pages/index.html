@@ -148,16 +148,24 @@
         <h1>Contact Me</h1>
         <p>Feel free to reach out to me. You can use the form below or contact me through the links provided.</p>
         <form action="contact.php" method="post">
-            <label for="name">Name:</label>
-            <input type="text" name="name" id="name" placeholder="Your name" required>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Your name" required>
 
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" placeholder="Your email" required>
+            </div>
 
-            <label for="message">Message:</label>
-            <textarea name="message" id="message" rows="4" placeholder="Your message" required></textarea>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Your Email" required>
+
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" rows="4" placeholder="Your message" required></textarea>
+            </div>
             
-            <input type="submit" value="Send Message">
+            <button type="submit" class="btn">Send Message</button>
         </form>
     </section>
 
