@@ -1,4 +1,29 @@
 // scripts/scripts.js
+const carouselContainer = document.querySelector('.carousel-container');
+const carouselSlides = document.querySelector('.carousel-slide');
+
+
+let currentIndex = 0;
+
+function showSlide(index) {
+    if (index < 0) {
+        index = carouselSlides.length - 1;
+    } else if (index >= carouselSlides.length){
+        index = 0;
+    }
+
+
+    const offset = -index * 100;
+    carouselContainer.style.transform = 'translateX(${offset}%)';
+    currentIndex = index;
+}
+
+
+setInterval(() => {
+    showSlide(currentIndex + 1);
+}, 3000);
+
+
 document.addEventListener('DOMContentLoaded', () => {
     const filterButtons = document.querySelectorAll('.filter-buttons button');
     const projects = document.querySelectorAll('.project');

@@ -204,4 +204,26 @@ section {
     color: #777;
 }
 
+.image-carousel {
+    margin-top: 40px;
+    overflow: hidden;
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.carousel-container {
+    display: flex;
+    transition: transform 0.5s;
+}
+
+.carousel-slide {
+    flex: 0 0 100%;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: auto;
+}
+
 /* Add more stles
