@@ -122,3 +122,16 @@
     text-decoration: none;
     margin: 0 20px;
 }
+
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
