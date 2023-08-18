@@ -28,7 +28,20 @@
 
 
 #projects {
+    padding: 80px 0;
+    background-color: #f4f4f4;
+}
 
+
+#projects h2 {
+    text-align: center;
+}
+
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
