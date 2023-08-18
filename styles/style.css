@@ -51,7 +51,42 @@
 
 
 #contact {
+    padding: 80px 0;
+    
+}
 
+
+#contact h2 {
+    text-align: center;
+}
+
+
+#contact form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+
+#contact-form button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
 }
 
 
