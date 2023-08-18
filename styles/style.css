@@ -1,12 +1,19 @@
 .navbar {
     background-color: #333;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
     /* Add more styles as needed */
 }
 
 
 #profile {
-
+    text-align: center;
+    padding: 100px 0;
+    background-color: #333;
+    color: white;
 }
 
 
@@ -27,4 +34,11 @@
 
 #contact {
 
+}
+
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
 }
