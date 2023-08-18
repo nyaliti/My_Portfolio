@@ -21,7 +21,7 @@ This is my personal portfolio website built to showcase my skills and projects a
 - Font Awesome icons
 
 
-##Setup
+## Setup
 
 1. Clone the repository:
 `git clone https://github.com/nyaliti/My_Portfolio` or download it from GitHub's [releases](https://github.com/nyaliti/My_Portfolio.git)
