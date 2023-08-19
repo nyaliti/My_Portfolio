@@ -1194,3 +1194,9 @@ color:#c26700;
 
 
 /*End media queries*/
+
+/*Extras*/
+h2.h21 {
+    font-weight: bold;
+    font-style: italic;
+}
