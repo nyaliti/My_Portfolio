@@ -493,3 +493,52 @@ li{
 color:#c26700;
 }
 /*End services*/
+
+/*Start portfolio*/
+.portfolio-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+.portfolio-item:last-child{
+    margin-bottom: 0;
+}
+
+.portfolio-img{
+    flex: .9;
+}
+
+.portfolio-description{
+    flex: 1;
+    font-size: 4rem;
+}
+
+.portfolio-description h1{
+    font-size: 3rem;
+    margin: 1rem 0;
+    font-weight: 400;
+}
+.portfolio-description h6{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 350;
+    opacity: .6;
+    margin-bottom: 0rem;
+    
+}
+
+.portfolio-description .cta{
+    display: inline-block;
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #2e89ff;
+}
+
+.portfolio-description .cta:hover{
+    color: #0059ff;
+}
+
+
+/*End portfolio*/
