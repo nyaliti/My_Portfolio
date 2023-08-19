@@ -312,3 +312,91 @@ li{
     }
 }
 /*End header*/
+
+/*Start about*/
+.about .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-heading{
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 0;
+    margin-bottom: 6rem;
+}
+.about-heading h1{
+    font-size: 10rem;
+    opacity: .3;
+    font-weight: 500;
+}
+
+.about-heading h6{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.container{
+    position: relative;
+}
+
+.about-details h3{
+    font-size: 3rem;
+    font-weight: 400;
+    color: white;
+}
+
+.about-details a:hover{
+    color: #0059ff;
+}
+
+.profile-img{
+    flex: .8;
+    margin-right: 5rem;
+}
+
+.about-details{
+    flex: 1;
+}
+
+.social-media{
+    margin-top: 5rem;
+}
+
+.social-media i{
+    font-size: 5rem;
+    transition: color 650ms;
+}
+
+.fa-medium:hover{
+    color: #ffffff;
+}
+
+.fa-github-square:hover{
+    color: #ffffff;
+}
+
+.fa-linkedin:hover{
+    color: #ffffff ;
+}
+
+
+.fa-twitter-square:hover{
+    color: #ffffff ;
+}
+
+.fa-behance-square:hover{
+    color: #ffffff ;
+}
+
+.skills-img{
+    position: absolute;
+    width: 25%;
+    height: 15%;
+    top: 100%;
+    right: 0%;
+    animation:move2 4s infinite;
+}
+
+
+/*End about*/
