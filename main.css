@@ -641,3 +641,45 @@ color:#c26700;
 
 /*Start contact*/
 /*End contact*/
+
+/*Start footer*/
+.copyright{
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #ffffff;
+    padding: 1rem 0;
+    position: relative;
+}
+
+.up{
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    border: 1px white solid;
+    background-color: #000000de;
+    top: -2.5rem;
+    right: 5rem;
+    border-radius: 100%;
+    display: flex;
+    animation: pulse 2s infinite;
+    cursor: pointer;
+    }
+
+
+.up i{
+    color: #ffffff;
+    font-size: 2rem;
+    margin: auto;
+   
+} 
+
+.copyright p{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 600;
+    font-family: 'Gotham Medium';
+    
+}
+
+/*End footer*/
