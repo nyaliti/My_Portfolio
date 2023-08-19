@@ -23,3 +23,32 @@ body{
     background: black no-repeat center fixed;
     background-size: cover;
 }
+
+section{
+    padding: 6rem 0;
+}
+
+a{
+    text-decoration: none;
+    color:#2e89ff;
+}
+
+address { 
+    display: block;
+    font-style: normal;
+    font-size: 1.8rem;
+  } 
+
+p{
+    font-family: 'Gotham Medium';
+    line-height: .6cm;
+    font-size: 1.8rem;
+    font-weight: 200;
+}
+
+img{
+    width: 100%;
+}
+
+
+/*End global*/
