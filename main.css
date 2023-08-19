@@ -542,3 +542,102 @@ color:#c26700;
 
 
 /*End portfolio*/
+
+/*Start timeline*/
+.timeline ul{
+    border-left: 4px solid #ffe838;
+    border-radius: .8rem;
+    background-color: rgba(29, 29, 29, 0.616);
+    margin: 0 auto;
+    position: relative;
+    padding: 5rem;
+    list-style: none;
+    text-align: left;
+    width: 70%;
+
+}
+
+.timeline h1{
+    
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    color: #ffffff;
+    
+}
+
+.timeline .date{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.281);
+    margin-bottom:  1rem;
+    padding-bottom: 1rem;
+    position: relative;
+}
+
+.timeline .date:last-of-type{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: none;
+}
+
+.timeline .date::before,
+.timeline .date::after{
+    position: absolute;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+.timeline a{
+    text-decoration: underline;
+    color:#ffae17;
+    font-size: 1.5rem;
+     
+}
+
+.timeline a:hover{
+    color: #cf8906;
+}
+
+.timeline .date::before{
+    content: attr(data-date);
+    left: -25rem;
+    text-align: right;
+    min-width: 12rem;
+    font-size: 1.5rem;
+    color: white;
+    width: 8rem;  
+    text-align: center;
+}
+
+.timeline .date::after{
+    content: '';
+    box-shadow: 0 0 0 4px #ffe838;
+    border-radius: 100%;
+    left: -8rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: #313534;
+}
+.experience-img{
+    position: absolute;
+    height: 50%;
+    width: 20%;
+    right: 0%;
+    animation:move 4s infinite;
+}
+
+.contact-img{
+    position: relative;
+    left: -10%;
+    width: 15%;
+    height: 15%;
+    animation:move2 4s infinite;
+
+}
+
+
+/*End timeline*/
+
+/*Start contact*/
+/*End contact*/
