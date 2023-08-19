@@ -10,3 +10,9 @@
     box-sizing: border-box;
     
 }
+
+html{
+    font-size: 10px;
+    font-family: 'Gotham Medium';
+    color: #c5c5c5;
+}
